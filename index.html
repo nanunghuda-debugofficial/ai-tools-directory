@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tools Directory 2025 — 200+ Tools AI Terbaik Per Niche</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --blue: #3B82F6;
+    --blue-light: #60A5FA;
+    --blue-dark: #1D4ED8;
+    --blue-glow: rgba(59,130,246,0.15);
+    --dark: #0B0F19;
+    --dark-2: #111827;
+    --dark-3: #1F2937;
+    --gray: #9CA3AF;
+    --gray-light: #D1D5DB;
+    --white: #FFFFFF;
+    --green: #10B981;
+    --purple: #8B5CF6;
+    --bg: #060A14;
+    --font-main: 'Inter', sans-serif;
+    --font-display: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--font-main);
+    background: var(--bg);
+    color: var(--white);
+    line-height: 1.6;
+  }
+
+  .lp-container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ===== NAV ===== */
+  .nav {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background: rgba(6,10,20,0.9);
+    backdrop-filter: blur(12px);
+    z-index: 100;
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .nav-logo span { color: var(--blue); }
+  .nav-cta {
+    background: var(--blue);
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    padding: 80px 0 60px;
+    text-align: center;
+    position: relative;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 400px;
+    background: radial-gradient(ellipse, rgba(59,130,246,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--blue-glow);
+    border: 1px solid rgba(59,130,246,0.3);
+    color: var(--blue-light);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 100px;
+    margin-bottom: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+  }
+  .hero-badge .pulse {
+    width: 8px;
+    height: 8px;
+    background: var(--green);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  .hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 6vw, 54px);
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    letter-spacing: -1px;
+    position: relative;
+  }
+  .hero h1 .highlight {
+    background: linear-gradient(135deg, var(--blue-light), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-sub {
+    font-size: 18px;
+    color: var(--gray);
+    max-width: 560px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+  }
+
+  .hero-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+    color: white;
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 800;
+    padding: 18px 44px;
+    border-radius: 14px;
+    text-decoration: none;
+    box-shadow: 0 4px 30px rgba(59,130,246,0.3);
+    transition: all 0.3s;
+  }
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 40px rgba(59,130,246,0.4);
+  }
+
+  .price-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .price-old {
+    font-size: 16px;
+    color: var(--gray);
+    text-decoration: line-through;
+  }
+  .price-new {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--blue-light);
+    font-family: var(--font-display);
+  }
+  .price-badge {
+    background: linear-gradient(135deg, #FF4444, #FF6B6B);
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+
+  .hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 48px;
+    flex-wrap: wrap;
+  }
+  .stat-item {
+    text-align: center;
+  }
+  .stat-num {
+    font-family: var(--font-display);
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--blue-light);
+  }
+  .stat-label {
+    font-size: 12px;
+    color: var(--gray);
+    margin-top: 2px;
+  }
+
+  /* ===== PREVIEW TABLE ===== */
+  .preview-section {
+    padding: 60px 0 80px;
+  }
+
+  .preview-card {
+    background: var(--dark-2);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .preview-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    background: rgba(255,255,255,0.02);
+  }
+
+  .preview-dots {
+    display: flex;
+    gap: 6px;
+  }
+  .preview-dots span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .preview-dots span:nth-child(1) { background: #FF5F57; }
+  .preview-dots span:nth-child(2) { background: #FFBD2E; }
+  .preview-dots span:nth-child(3) { background: #28CA41; }
+
+  .filter-tabs {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .filter-tab {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background: transparent;
+    color: var(--gray);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .filter-tab.active, .filter-tab:hover {
+    background: var(--blue-glow);
+    border-color: rgba(59,130,246,0.3);
+    color: var(--blue-light);
+  }
+
+  .preview-search {
+    padding: 12px 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .preview-search input {
+    width: 100%;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+    padding: 10px 16px;
+    color: var(--white);
+    font-size: 13px;
+    font-family: var(--font-main);
+    outline: none;
+  }
+  .preview-search input::placeholder { color: var(--gray); }
+
+  .tools-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .tools-table th {
+    text-align: left;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gray);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    background: rgba(255,255,255,0.02);
+  }
+  .tools-table td {
+    padding: 14px 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+    font-size: 13px;
+  }
+  .tools-table tr:hover td {
+    background: rgba(59,130,246,0.04);
+  }
+
+  .tool-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+  }
+  .tool-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+
+  .tool-stars {
+    color: #FBBF24;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .price-tag {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+  .price-free { background: rgba(16,185,129,0.15); color: var(--green); }
+  .price-freemium { background: rgba(59,130,246,0.15); color: var(--blue-light); }
+  .price-paid { background: rgba(168,85,247,0.15); color: var(--purple); }
+
+  .cat-tag {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 100px;
+    background: rgba(255,255,255,0.06);
+    color: var(--gray-light);
+  }
+
+  .preview-footer {
+    padding: 16px 24px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--gray);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }
+  .preview-footer strong { color: var(--blue-light); }
+
+  /* ===== CATEGORIES ===== */
+  .categories-section {
+    padding: 80px 0;
+  }
+
+  .section-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--blue-light);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .section-title {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 5vw, 42px);
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .section-desc {
+    font-size: 17px;
+    color: var(--gray);
+    max-width: 560px;
+    margin: 0 auto 48px;
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  .cats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+  }
+
+  .cat-card {
+    background: var(--dark-2);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 16px;
+    padding: 24px;
+    transition: all 0.3s;
+  }
+  .cat-card:hover {
+    border-color: rgba(59,130,246,0.3);
+    transform: translateY(-2px);
+  }
+
+  .cat-icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .cat-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  .cat-card p {
+    font-size: 13px;
+    color: var(--gray);
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  .cat-count {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--blue-light);
+  }
+
+  /* ===== WHAT'S INSIDE ===== */
+  .inside-section {
+    padding: 80px 0;
+  }
+
+  .inside-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .inside-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background: var(--dark-2);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 16px;
+    padding: 28px;
+  }
+
+  .inside-icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    background: var(--blue-glow);
+    border: 1px solid rgba(59,130,246,0.2);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+
+  .inside-content h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  .inside-content p {
+    font-size: 14px;
+    color: var(--gray);
+    line-height: 1.6;
+  }
+
+  /* ===== COMPARISON ===== */
+  .compare-section {
+    padding: 80px 0;
+  }
+
+  .compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 48px;
+    background: var(--dark-2);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .compare-table th {
+    padding: 18px 24px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .compare-table th:first-child { color: var(--gray); }
+  .compare-table th:last-child {
+    color: var(--blue-light);
+    background: rgba(59,130,246,0.05);
+  }
+
+  .compare-table td {
+    padding: 14px 24px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+  }
+  .compare-table td:last-child {
+    background: rgba(59,130,246,0.03);
+    font-weight: 600;
+  }
+  .compare-table tr:last-child td { border-bottom: none; }
+
+  .check { color: var(--green); font-weight: 700; }
+  .cross { color: #EF4444; }
+
+  /* ===== TESTIMONIALS ===== */
+  .testimonial-section {
+    padding: 80px 0;
+  }
+
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 48px;
+  }
+
+  .testimonial-card {
+    background: var(--dark-2);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 16px;
+    padding: 28px;
+  }
+
+  .testimonial-stars {
+    color: #FBBF24;
+    font-size: 16px;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+  }
+
+  .testimonial-text {
+    font-size: 14px;
+    color: var(--gray-light);
+    line-height: 1.7;
+    margin-bottom: 16px;
+    font-style: italic;
+  }
+
+  .testimonial-author {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .testimonial-role {
+    font-size: 11px;
+    color: var(--gray);
+  }
+
+  /* ===== PRICING ===== */
+  .pricing-section {
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 20px;
+    margin-top: 48px;
+    align-items: start;
+  }
+
+  .pricing-card {
+    background: var(--dark-2);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 20px;
+    padding: 36px 28px;
+    text-align: left;
+  }
+
+  .pricing-card.featured {
+    border: 2px solid var(--blue);
+    position: relative;
+    box-shadow: 0 0 40px rgba(59,130,246,0.1);
+  }
+
+  .pricing-popular {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+    color: white;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 18px 18px 0 0;
+    text-transform: uppercase;
+  }
+
+  .pricing-name {
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 4px;
+  }
+
+  .pricing-desc {
+    font-size: 13px;
+    color: var(--gray);
+    margin-bottom: 20px;
+  }
+
+  .pricing-price {
+    margin-bottom: 20px;
+  }
+  .pricing-price .old {
+    font-size: 18px;
+    color: var(--gray);
+    text-decoration: line-through;
+    margin-right: 8px;
+  }
+  .pricing-price .new {
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--blue-light);
+    font-family: var(--font-display);
+  }
+
+  .pricing-features {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .pricing-features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 13px;
+    list-style: none;
+  }
+  .pricing-features li svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--blue-light);
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+
+  .btn-full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+    color: white;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 800;
+    padding: 16px;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 4px 20px rgba(59,130,246,0.25);
+  }
+
+  .btn-outline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.12);
+    color: var(--white);
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 800;
+    padding: 16px;
+    border-radius: 12px;
+    text-decoration: none;
+  }
+
+  .guarantee-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    font-size: 12px;
+    color: var(--gray);
+  }
+  .guarantee-row svg { width: 18px; height: 18px; fill: var(--blue-light); }
+
+  /* ===== FAQ ===== */
+  .faq-section {
+    padding: 80px 0;
+  }
+
+  .faq-list {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .faq-item {
+    background: var(--dark-2);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 14px;
+    padding: 24px;
+  }
+
+  .faq-q {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .faq-q .q-mark {
+    color: var(--blue-light);
+    font-size: 18px;
+    font-weight: 800;
+    font-family: var(--font-display);
+    min-width: 24px;
+  }
+
+  .faq-a {
+    font-size: 14px;
+    color: var(--gray);
+    line-height: 1.7;
+    padding-left: 36px;
+  }
+
+  /* ===== FINAL CTA ===== */
+  .final-cta {
+    padding: 100px 0;
+    text-align: center;
+  }
+  .final-cta h2 {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 5vw, 40px);
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  .final-cta h2 .highlight {
+    background: linear-gradient(135deg, var(--blue-light), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .final-cta p {
+    font-size: 16px;
+    color: var(--gray);
+    max-width: 500px;
+    margin: 0 auto 36px;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .footer p {
+    font-size: 13px;
+    color: var(--gray);
+  }
+  .footer a {
+    color: var(--blue-light);
+    text-decoration: none;
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 700px) {
+    .pricing-grid { grid-template-columns: 1fr; }
+    .testimonials-grid { grid-template-columns: 1fr; }
+    .cats-grid { grid-template-columns: 1fr 1fr; }
+    .hero-stats { gap: 24px; }
+    .stat-num { font-size: 26px; }
+    .tools-table { font-size: 12px; }
+    .tools-table th, .tools-table td { padding: 10px 12px; }
+    .filter-tabs { display: none; }
+  }
+
+  @media (max-width: 480px) {
+    .cats-grid { grid-template-columns: 1fr; }
+    .nav-inner { flex-direction: column; gap: 10px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<div class="nav">
+  <div class="lp-container">
+    <div class="nav-inner">
+      <div class="nav-logo">🤖 AI Tools <span>Directory</span></div>
+      <a href="#pricing" class="nav-cta">Beli Sekarang</a>
+    </div>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="lp-container">
+    <div class="hero-badge">
+      <div class="pulse"></div>
+      Updated Juni 2025
+    </div>
+    <h1>
+      Berhenti Cari AI Tools<br>
+      <span class="highlight">Mulai Dari Sini</span>
+    </h1>
+    <p class="hero-sub">
+      200+ AI tools terbaik sudah terkurasi per niche. Tinggal cari, klik, pakai — hemat berjam-jam riset Anda.
+    </p>
+    <div class="hero-cta">
+      <a href="#pricing" class="btn-primary">
+        ⚡ Akses Sekarang
+      </a>
+      <div class="price-row">
+        <span class="price-old">Rp149.000</span>
+        <span class="price-new">Rp99.000</span>
+        <span class="price-badge">LAUNCHING</span>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">200+</div>
+        <div class="stat-label">AI Tools</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">6</div>
+        <div class="stat-label">Kategori</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">⭐ 4.5</div>
+        <div class="stat-label">Avg Rating</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">Free</div>
+        <div class="stat-label">Update Bulanan</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PREVIEW TABLE -->
+<section class="preview-section">
+  <div class="lp-container">
+    <div class="section-label">Preview</div>
+    <h2 class="section-title">Seperti ini tampilan di dalam</h2>
+
+    <div class="preview-card">
+      <div class="preview-toolbar">
+        <div class="preview-dots"><span></span><span></span><span></span></div>
+        <div class="filter-tabs">
+          <div class="filter-tab active">Semua</div>
+          <div class="filter-tab">Creator</div>
+          <div class="filter-tab">Developer</div>
+          <div class="filter-tab">Marketer</div>
+          <div class="filter-tab">Desainer</div>
+          <div class="filter-tab">Bisnis</div>
+        </div>
+      </div>
+
+      <div class="preview-search">
+        <input type="text" placeholder="🔍 Cari tools... (contoh: copywriting, video, code)">
+      </div>
+
+      <table class="tools-table">
+        <thead>
+          <tr>
+            <th>Tool</th>
+            <th>Kategori</th>
+            <th>Harga</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="tool-name">
+                <div class="tool-icon" style="background:rgba(59,130,246,0.15);">✍️</div>
+                ChatGPT
+              </div>
+            </td>
+            <td><span class="cat-tag">Copywriting</span></td>
+            <td><span class="price-tag price-freemium">Freemium</span></td>
+            <td><span class="tool-stars">★★★★★</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="tool-name">
+                <div class="tool-icon" style="background:rgba(168,85,247,0.15);">🎨</div>
+                Midjourney
+              </div>
+            </td>
+            <td><span class="cat-tag">Visual AI</span></td>
+            <td><span class="price-tag price-paid">Paid</span></td>
+            <td><span class="tool-stars">★★★★★</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="tool-name">
+                <div class="tool-icon" style="background:rgba(16,185,129,0.15);">💻</div>
+                GitHub Copilot
+              </div>
+            </td>
+            <td><span class="cat-tag">Developer</span></td>
+            <td><span class="price-tag price-paid">Paid</span></td>
+            <td><span class="tool-stars">★★★★☆</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="tool-name">
+                <div class="tool-icon" style="background:rgba(251,191,36,0.15);">🎬</div>
+                CapCut AI
+              </div>
+            </td>
+            <td><span class="cat-tag">Video</span></td>
+            <td><span class="price-tag price-free">Free</span></td>
+            <td><span class="tool-stars">★★★★☆</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="tool-name">
+                <div class="tool-icon" style="background:rgba(239,68,68,0.15);">📧</div>
+                Jasper AI
+              </div>
+            </td>
+            <td><span class="cat-tag">Marketing</span></td>
+            <td><span class="price-tag price-paid">Paid</span></td>
+            <td><span class="tool-stars">★★★★☆</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="tool-name">
+                <div class="tool-icon" style="background:rgba(139,92,246,0.15);">🗣️</div>
+                ElevenLabs
+              </div>
+            </td>
+            <td><span class="cat-tag">Audio</span></td>
+            <td><span class="price-tag price-freemium">Freemium</span></td>
+            <td><span class="tool-stars">★★★★★</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="tool-name">
+                <div class="tool-icon" style="background:rgba(236,72,153,0.15);">📊</div>
+                Surfer SEO
+              </div>
+            </td>
+            <td><span class="cat-tag">SEO</span></td>
+            <td><span class="price-tag price-paid">Paid</span></td>
+            <td><span class="tool-stars">★★★★☆</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="tool-name">
+                <div class="tool-icon" style="background:rgba(20,184,166,0.15);">🎓</div>
+                Khanmigo
+              </div>
+            </td>
+            <td><span class="cat-tag">Pendidikan</span></td>
+            <td><span class="price-tag price-freemium">Freemium</span></td>
+            <td><span class="tool-stars">★★★★☆</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="preview-footer">
+        <strong>200+ tools</strong> tersedia dalam database interaktif — bisa di-filter, di-sort, dan di-search
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories-section">
+  <div class="lp-container">
+    <div class="section-label">Kategori</div>
+    <h2 class="section-title">Tools AI untuk setiap kebutuhan</h2>
+    <p class="section-desc">Tidak peduli niche Anda, ada tools yang bisa bantu kerja Anda 2x lebih cepat.</p>
+
+    <div class="cats-grid">
+      <div class="cat-card">
+        <div class="cat-icon">🎬</div>
+        <h3>Content Creator</h3>
+        <p>Copywriting, visual, video, audio — semua tools kreator konten ada di sini.</p>
+        <div class="cat-count">40+ tools</div>
+      </div>
+      <div class="cat-card">
+        <div class="cat-icon">💻</div>
+        <h3>Developer</h3>
+        <p>Code generation, testing, DevOps — tools untuk developer modern.</p>
+        <div class="cat-count">30+ tools</div>
+      </div>
+      <div class="cat-card">
+        <div class="cat-icon">📢</div>
+        <h3>Marketer</h3>
+        <p>Ads, SEO, email, social media — tools yang bikin campaign naik.</p>
+        <div class="cat-count">40+ tools</div>
+      </div>
+      <div class="cat-card">
+        <div class="cat-icon">🎨</div>
+        <h3>Desainer</h3>
+        <p>UI/UX, illustration, 3D — tools AI untuk desainer yang pengen cepat.</p>
+        <div class="cat-count">30+ tools</div>
+      </div>
+      <div class="cat-card">
+        <div class="cat-icon">💼</div>
+        <h3>Bisnis & Productivity</h3>
+        <p>Meeting, notes, project management — tools untuk bisnis lebih efisien.</p>
+        <div class="cat-count">30+ tools</div>
+      </div>
+      <div class="cat-card">
+        <div class="cat-icon">🎓</div>
+        <h3>Pendidikan</h3>
+        <p>Belajar, riset, writing — tools AI untuk pelajar & pengajar.</p>
+        <div class="cat-count">20+ tools</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT'S INSIDE -->
+<section class="inside-section">
+  <div class="lp-container">
+    <div class="section-label">Isi Produk</div>
+    <h2 class="section-title">Yang Anda dapatkan</h2>
+
+    <div class="inside-grid">
+      <div class="inside-row">
+        <div class="inside-icon">📋</div>
+        <div class="inside-content">
+          <h3>Notion Database Interaktif</h3>
+          <p>200+ tools dalam Notion yang bisa di-filter per kategori, di-sort per rating/harga, dan di-search. Bisa di-duplicate ke workspace Anda.</p>
+        </div>
+      </div>
+      <div class="inside-row">
+        <div class="inside-icon">📄</div>
+        <div class="inside-content">
+          <h3>PDF Version</h3>
+          <p>Versi PDF untuk akses offline. Bisa dibuka di HP, tablet, atau cetak untuk referensi tim.</p>
+        </div>
+      </div>
+      <div class="inside-row">
+        <div class="inside-icon">🔗</div>
+        <div class="inside-content">
+          <h3>Link Langsung ke Setiap Tool</h3>
+          <p>Setiap entry dilengkapi link website langsung. Tinggal klik → daftar → pakai. Tanpa ribet.</p>
+        </div>
+      </div>
+      <div class="inside-row">
+        <div class="inside-icon">⭐</div>
+        <div class="inside-content">
+          <h3>Rating & Catatan "Best For"</h3>
+          <p>Setiap tool diberi rating 1-5 dan catatan singkat: "Best for apa" — biar Anda gampang milih.</p>
+        </div>
+      </div>
+      <div class="inside-row">
+        <div class="inside-icon">🔄</div>
+        <div class="inside-content">
+          <h3>Update Gratis Tiap Bulan</h3>
+          <p>AI tools terus bermunculan. Database di-update setiap bulan dengan tools baru & hapus yang sudah mati.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON -->
+<section class="compare-section">
+  <div class="lp-container">
+    <div class="section-label">Perbandingan</div>
+    <h2 class="section-title">Sendiri vs Pakai Directory</h2>
+
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th style="color: var(--gray);">Cari Sendiri</th>
+          <th>Pakai AI Tools Directory</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Waktu riset</td>
+          <td class="cross">10+ jam per bulan</td>
+          <td class="check">0 jam — sudah terkurasi</td>
+        </tr>
+        <tr>
+          <td>Tools yang ditemukan</td>
+          <td class="cross">Yang viral doang</td>
+          <td class="check">200+ per niche</td>
+        </tr>
+        <tr>
+          <td>Info harga & rating</td>
+          <td class="cross">Harus cek satu per satu</td>
+          <td class="check">Sudah ada di database</td>
+        </tr>
+        <tr>
+          <td>Update tools baru</td>
+          <td class="cross">Nggak ada</td>
+          <td class="check">Update gratis tiap bulan</td>
+        </tr>
+        <tr>
+          <td>Biaya</td>
+          <td class="cross">Waktu = uang</td>
+          <td class="check">Rp99.000 sekali bayar</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonial-section">
+  <div class="lp-container">
+    <div class="section-label">Testimonial</div>
+    <h2 class="section-title">Apa kata mereka?</h2>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"Saya nemu 15+ tools AI baru yang belum pernah saya tau. Sekarang workflow content creation saya 3x lebih cepat."</p>
+        <div class="testimonial-author">— Rina K., Content Creator</div>
+        <div class="testimonial-role">Bandung</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"Notion database-nya sangat berguna. Saya filter per kategori developer dan langsung nemu tools yang cocok untuk tim saya."</p>
+        <div class="testimonial-author">— Dimas P., Tech Lead</div>
+        <div class="testimonial-role">Jakarta</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="pricing-section">
+  <div class="section-label">Harga</div>
+  <h2 class="section-title">Pilih paket yang cocok</h2>
+
+  <div class="pricing-grid">
+    <!-- PDF Only -->
+    <div class="pricing-card">
+      <div class="pricing-name">PDF Only</div>
+      <div class="pricing-desc">Versi PDF untuk akses offline</div>
+      <div class="pricing-price">
+        <span class="old">Rp99.000</span>
+        <span class="new">Rp49.000</span>
+      </div>
+      <ul class="pricing-features">
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> PDF 200+ tools</li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> 6 kategori</li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Rating & catatan</li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Link ke setiap tool</li>
+      </ul>
+      <a href="https://wa.me/6285166923221?text=Halo%2C%20saya%20mau%20beli%20AI%20Tools%20Directory%20(PDF%20Only)" class="btn-outline">📄 Beli PDF — Rp49rb</a>
+    </div>
+
+    <!-- Full Access -->
+    <div class="pricing-card featured">
+      <div class="pricing-popular">💫 Best Value — Paling Laris</div>
+      <div class="pricing-name" style="margin-top:16px;">Full Access</div>
+      <div class="pricing-desc">Notion database + PDF + update gratis</div>
+      <div class="pricing-price">
+        <span class="old">Rp149.000</span>
+        <span class="new">Rp99.000</span>
+      </div>
+      <ul class="pricing-features">
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> <strong>Notion database interaktif</strong></li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> <strong>PDF version</strong></li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> 200+ tools, 6 kategori</li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Filter, sort, search</li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Rating, harga, link</li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> <strong>Update gratis tiap bulan</strong></li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> <strong>Lifetime access</strong></li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> 7 hari garansi</li>
+      </ul>
+      <a href="https://wa.me/6285166923221?text=Halo%2C%20saya%20mau%20beli%20AI%20Tools%20Directory%20(Full%20Access)" class="btn-full">⚡ Beli Full Access — Rp99rb</a>
+      <div class="guarantee-row">
+        <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+        <span><strong>Garansi 7 Hari</strong> — Tidak puas? Uang 100% kembali.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section">
+  <div class="lp-container">
+    <div class="section-label">FAQ</div>
+    <h2 class="section-title">Pertanyaan yang sering ditanyakan</h2>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q"><span class="q-mark">Q</span> Formatnya apa?</div>
+        <div class="faq-a">Notion database interaktif (bisa di-duplicate) + PDF version. Bisa diakses di HP, tablet, atau PC.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="q-mark">Q</span> Tools-nya update?</div>
+        <div class="faq-a">Ya! Database di-update setiap bulan dengan tools baru. Tools yang sudah mati/tidak relevan akan dihapus.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="q-mark">Q</span> Cocok untuk siapa?</div>
+        <div class="faq-a">Content creator, developer, marketer, desainer, business owner, educator — siapa saja yang mau pakai AI tools dengan lebih efektif.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="q-mark">Q</span> Bagaimana cara belinya?</div>
+        <div class="faq-a">Klik tombol "Beli" di atas. Anda akan diarahkan ke WhatsApp untuk konfirmasi pembayaran via transfer/Bank/QRIS.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="q-mark">Q</span> Bisa minta tolong setup Notion-nya?</div>
+        <div class="faq-a">Bisa! Setelah beli, hubungi kami via WhatsApp. Kami bantu duplicate database ke workspace Anda (gratis).</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <div class="lp-container">
+    <h2>Stop Cari, <span class="highlight">Mulai Pakai</span></h2>
+    <p>200+ AI tools terbaik sudah terkurasi. Tinggal pakai,hemat berjam-jam riset Anda.</p>
+    <a href="https://wa.me/6285166923221?text=Halo%2C%20saya%20mau%20beli%20AI%20Tools%20Directory" class="btn-primary">
+      ⚡ Akses Sekarang — Rp99.000
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="lp-container">
+    <p>© 2025 AI Tools Directory | Contact: <a href="https://wa.me/6285166923221">0851 6692 3221</a></p>
+  </div>
+</div>
+
+</body>
+</html>
