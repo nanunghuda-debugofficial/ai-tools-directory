@@ -1,0 +1,112 @@
+Nama Tool,Kategori,Sub-Kategori,Harga,Harga Detail,Rating,Best For,Link,Status
+ChatGPT,Content Creator,Copywriting,Freemium,Free / $20/bln (Plus),5,"General writing, brainstorming, coding help",https://chat.openai.com,Active
+Claude,Content Creator,Copywriting,Freemium,Free / $20/bln (Pro),5,"Long-form writing, analysis, coding",https://claude.ai,Active
+Jasper AI,Content Creator,Copywriting,Paid,$39-$99/bln,4,"Marketing copy, brand voice, long-form",https://jasper.ai,Active
+Copy.ai,Content Creator,Copywriting,Freemium,Free / $36-$186/bln,4,"Social media copy, email, blog",https://copy.ai,Active
+Writesonic,Content Creator,Copywriting,Freemium,Free / $12.67+/bln,4,"SEO content, landing page, blog",https://writesonic.com,Active
+Rytr,Content Creator,Copywriting,Freemium,Free / $9-$29/bln,3,"Fast writing, budget-friendly",https://rytr.me,Active
+Anyword,Content Creator,Copywriting,Paid,$39-$79/bln,4,Performance-based copywriting,https://anyword.com,Active
+Simplified,Content Creator,Copywriting,Freemium,Free / $18-$49/bln,4,All-in-one content + design,https://simplified.com,Active
+Hypotenuse AI,Content Creator,Copywriting,Paid,$24-$49/bln,4,E-commerce product descriptions,https://hypotenuse.ai,Active
+Copymatic,Content Creator,Copywriting,Freemium,Free / $6-$58/bln,4,"Blog posts, ads, social media",https://copymatic.ai,Active
+Midjourney,Content Creator,Visual AI,Paid,$10-$120/bln,5,"Photorealistic, artistic images",https://midjourney.com,Active
+DALL·E 3,Content Creator,Visual AI,Freemium,Free (via Bing) / $20/bln (ChatGPT Plus),5,"Easy image generation, accurate prompts",https://openai.com/dall-e,Active
+Adobe Firefly,Content Creator,Visual AI,Freemium,Free tier / $55/bln (CC),4,Commercial-safe AI design,https://firefly.adobe.com,Active
+Ideogram,Content Creator,Visual AI,Freemium,Free / $7-$16/bln,4,Text-in-image (best in class),https://ideogram.ai,Active
+Leonardo AI,Content Creator,Visual AI,Freemium,Free / $10-$48/bln,4,"Game assets, concept art",https://leonardo.ai,Active
+Canva AI,Content Creator,Visual AI,Freemium,Free / $12/bln (Pro),4,Design + AI generation combined,https://canva.com,Active
+Recraft AI,Content Creator,Visual AI,Freemium,Free / $10-$86/bln,4,"Vector art, icons, design consistency",https://recraft.ai,Active
+Stable Diffusion,Content Creator,Visual AI,Free,"Open source, self-hosted",4,"Open source, fully customizable",https://stability.ai,Active
+CapCut,Content Creator,Video,Free,Gratis,5,"TikTok/Reels editing, AI effects",https://capcut.com,Active
+Runway ML,Content Creator,Video,Freemium,Free / $12-$76/bln,5,"AI video generation, green screen",https://runwayml.com,Active
+Pictory AI,Content Creator,Video,Paid,$19-$39/bln,4,Blog-to-video conversion,https://pictory.ai,Active
+Synthesia,Content Creator,Video,Paid,$22-$67/bln,4,"AI avatar presenter, corporate videos",https://synthesia.io,Active
+HeyGen,Content Creator,Video,Paid,$24-$72/bln,4,"AI avatar, lip-sync, video translation",https://heygen.com,Active
+Descript,Content Creator,Video,Freemium,Free / $12-$24/bln,4,Video editing by editing text,https://descript.com,Active
+InVideo AI,Content Creator,Video,Freemium,Free / $20-$48/bln,4,Template-based AI video creation,https://invideo.io,Active
+Opus Clip,Content Creator,Video,Freemium,Free / $15-$30/bln,4,Long-form to short-form clips,https://opus.pro,Active
+Fliki,Content Creator,Video,Freemium,Free / $21-$54/bln,4,Text-to-video with AI voice,https://fliki.ai,Active
+Veed.io,Content Creator,Video,Freemium,Free / $18-$59/bln,4,"Subtitles, editing, AI tools",https://veed.io,Active
+ElevenLabs,Content Creator,Audio,Freemium,Free / $5-$330/bln,5,"Best AI voice, multilingual, cloning",https://elevenlabs.io,Active
+Murf.ai,Content Creator,Audio,Freemium,Free / $19-$59/bln,4,Professional voiceover for business,https://murf.ai,Active
+Suno AI,Content Creator,Audio,Freemium,Free / $8-$24/bln,5,Music generation from text,https://suno.com,Active
+AIVA,Content Creator,Audio,Freemium,Free / €11-€33/bln,4,Classical/ambient music generation,https://aiva.ai,Active
+Lalal.ai,Content Creator,Audio,Freemium,Free tier / Paid per track,4,Stem separation (vocals/instruments),https://lalal.ai,Active
+Podcastle,Content Creator,Audio,Freemium,Free / $12-$24/bln,4,Podcast recording & AI editing,https://podcastle.ai,Active
+Speechify,Content Creator,Audio,Freemium,Free / $139/tahun,4,Text-to-speech for studying,https://speechify.com,Active
+GitHub Copilot,Developer,Code,Paid,$10-$19/bln,5,"Code completion, pair programming",https://github.com/copilot,Active
+Cursor,Developer,Code,Freemium,Free / $20/bln (Pro),5,"AI-first code editor, refactoring",https://cursor.sh,Active
+Replit AI,Developer,Code,Freemium,Free / $25/bln (Core),4,Browser-based coding + AI,https://replit.com,Active
+Codeium,Developer,Code,Free,Gratis,5,Free Copilot alternative,https://codeium.com,Active
+Tabnine,Developer,Code,Freemium,Free / $12/bln,4,Privacy-focused code completion,https://tabnine.com,Active
+Vercel AI SDK,Developer,Code,Free,Open source,4,"AI app development, streaming",https://sdk.vercel.ai,Active
+Amazon CodeWhisperer,Developer,Code,Free,Gratis,4,AWS-focused code completion,https://aws.amazon.com/codewhisperer,Active
+Sourcegraph Cody,Developer,Code,Freemium,Free / Paid plans,4,Code search + AI for large codebase,https://sourcegraph.com,Active
+CodiumAI,Developer,Testing,Freemium,Free / Paid plans,4,AI code testing,https://codium.ai,Active
+Snyk,Developer,Testing,Freemium,Free / Paid plans,4,Code security scanning,https://snyk.io,Active
+Docker AI (Gordon),Developer,DevOps,Free,Gratis,3,Docker container AI assistant,https://docker.com,Active
+Mintlify,Developer,DevOps,Freemium,Free / Paid plans,4,Auto documentation,https://mintlify.com,Active
+Warp,Developer,DevOps,Free,Gratis,4,Terminal with AI,https://warp.dev,Active
+AdCreative.ai,Marketer,Ads,Paid,$29-$140/bln,5,AI ad creative generation,https://adcreative.ai,Active
+Pencil,Marketer,Ads,Paid,Custom pricing,4,Testing ad variations,https://trypencil.com,Active
+Bannerbear,Marketer,Ads,Paid,$44-$276/bln,4,Programmatic banner generation,https://bannerbear.com,Active
+Creatify,Marketer,Ads,Paid,$39-$141/bln,4,AI video ad maker,https://creatify.ai,Active
+Predis.ai,Marketer,Ads,Freemium,Free / $25-$49/bln,4,Social media + carousel generation,https://predis.ai,Active
+Surfer SEO,Marketer,SEO,Paid,$89-$399/bln,5,On-page SEO optimization,https://surferseo.com,Active
+Semrush,Marketer,SEO,Paid,$119-$449/bln,5,All-in-one SEO toolkit,https://semrush.com,Active
+Ahrefs,Marketer,SEO,Paid,$99-$999/bln,5,"Backlink analysis, keyword research",https://ahrefs.com,Active
+Frase.io,Marketer,SEO,Paid,$14.99-$114.99/bln,4,SEO content research & writing,https://frase.io,Active
+NeuronWriter,Marketer,SEO,Paid,$19-$97/bln,4,NLP-optimized content,https://neuronwriter.com,Active
+Outranking,Marketer,SEO,Paid,$79-$199/bln,4,SEO content with SERP analysis,https://outranking.io,Active
+Mailchimp AI,Marketer,Email,Freemium,Free / $20-$350/bln,4,Email marketing + AI content,https://mailchimp.com,Active
+HubSpot AI,Marketer,Email,Freemium,Free / Paid plans,5,CRM + marketing automation,https://hubspot.com,Active
+Klaviyo,Marketer,Email,Freemium,Free / $20-$350/bln,5,E-commerce email marketing,https://klaviyo.com,Active
+Lavender,Marketer,Email,Paid,$29-$79/bln,5,AI email assistant for sales,https://lavender.ai,Active
+Instantly,Marketer,Email,Paid,$30-$97/bln,4,Cold email outreach at scale,https://instantly.ai,Active
+Buffer,Marketer,Social Media,Freemium,Free / $6-$12/bln,4,Social media scheduling,https://buffer.com,Active
+Hootsuite,Marketer,Social Media,Paid,$99-$249/bln,4,Enterprise social management,https://hootsuite.com,Active
+Ocoya,Marketer,Social Media,Paid,$19-$79/bln,4,AI social content + scheduling,https://ocoya.com,Active
+Taplio,Marketer,Social Media,Paid,$29-$119/bln,5,LinkedIn automation + AI,https://taplio.com,Active
+ManyChat,Marketer,Chatbot,Freemium,Free / $15-$150/bln,4,WhatsApp/FB Messenger chatbot,https://manychat.com,Active
+Intercom Fin,Marketer,Chatbot,Paid,$39-$155/bln,5,Customer support chatbot,https://intercom.com,Active
+Tidio,Marketer,Chatbot,Freemium,Free / $20-$299/bln,4,Live chat + AI bot for e-commerce,https://tidio.io,Active
+Figma AI,Desainer,UI/UX,Freemium,Free / $15-$45/bln,5,UI/UX design + AI features,https://figma.com,Active
+Framer AI,Desainer,UI/UX,Freemium,Free / $5-$20/bln,4,AI website generation,https://framer.com,Active
+Uizard,Desainer,UI/UX,Freemium,Free / $19-$49/bln,4,"Wireframe → design, non-designers",https://uizard.io,Active
+Galileo AI,Desainer,UI/UX,Paid,$19-$79/bln,4,UI generation from text prompts,https://usegalileo.ai,Active
+Vizcom,Desainer,UI/UX,Paid,$29-$99/bln,4,Sketch → photorealistic render,https://vizcom.ai,Active
+Spline AI,Desainer,3D,Freemium,Free / $9-$19/bln,4,3D design with AI,https://spline.design,Active
+Remove.bg,Desainer,Image Editing,Freemium,Free / $9-$39/bln,5,Background removal,https://remove.bg,Active
+Clipdrop,Desainer,Image Editing,Freemium,Free / $10-$30/bln,4,"Image upscaling, cleanup, relight",https://clipdrop.co,Active
+Let's Enhance,Desainer,Image Editing,Freemium,Free / $12-$34/bln,4,Image upscaling,https://letsenhance.io,Active
+Topaz Photo AI,Desainer,Image Editing,Paid,$199 one-time,5,Professional photo enhancement,https://topazlabs.com,Active
+Magnific AI,Desainer,Image Editing,Paid,Usage-based,5,Image upscaling with AI detail,https://magnific.ai,Active
+Kittl,Desainer,Illustration,Freemium,Free / $10-$24/bln,4,T-shirt & merch design,https://kittl.com,Active
+Flair AI,Desainer,Illustration,Freemium,Free / Paid plans,4,AI product photography staging,https://flair.ai,Active
+Notion AI,Bisnis,Productivity,Freemium,Free / $10-$20/bln add-on,5,All-in-one workspace + AI writing,https://notion.so,Active
+ClickUp AI,Bisnis,Productivity,Freemium,Free / $7-$12/bln add-on,4,Project management + AI,https://clickup.com,Active
+Otter.ai,Bisnis,Meeting,Freemium,Free / $17-$30/bln,5,Meeting transcription + summary,https://otter.ai,Active
+Fireflies.ai,Bisnis,Meeting,Freemium,Free / $10-$18/bln,5,"Meeting notes, action items",https://fireflies.ai,Active
+Fathom,Bisnis,Meeting,Free,Gratis,5,Free meeting recording + notes,https://fathom.ai,Active
+tl;dv,Bisnis,Meeting,Freemium,Free / $20-$59/bln,4,Zoom/Meet recording,https://tldv.ai,Active
+Loom,Bisnis,Productivity,Freemium,Free / $12.50-$20/bln,5,Async video messaging,https://loom.com,Active
+Zapier AI,Bisnis,Automation,Freemium,Free / $20-$799/bln,5,Automation + AI trigger/actions,https://zapier.com,Active
+Make (Integromat),Bisnis,Automation,Freemium,Free / $9-$16/bln,4,Visual automation builder,https://make.com,Active
+Tango,Bisnis,Productivity,Freemium,Free / $24/tahun,4,Auto SOP/workflow documentation,https://tango.us,Active
+Scribe,Bisnis,Productivity,Freemium,Free / $23-$40/bln,4,Auto process documentation,https://howtograsp.com,Active
+Ramp,Bisnis,Finance,Free,Gratis,5,Corporate cards + AI expense,https://ramp.com,Active
+Vic.ai,Bisnis,Finance,Paid,Custom pricing,4,AI bookkeeping & accounting,https://vic.ai,Active
+Textio,Bisnis,HR,Paid,Custom pricing,4,AI job description optimization,https://textio.com,Active
+Khanmigo,Pendidikan,Tutor,Paid,$4/bln,5,AI tutor for students,https://khanacademy.org/khanmigo,Active
+Quizlet AI,Pendidikan,Tutor,Freemium,Free / $35.99/tahun,4,Flashcards + AI tutor,https://quizlet.com,Active
+Duolingo Max,Pendidikan,Language,Freemium,Free / $14.99/bln,5,Language learning + AI conversation,https://duolingo.com,Active
+Perplexity AI,Pendidikan,Research,Freemium,Free / $20/bln (Pro),5,"AI search engine, research",https://perplexity.ai,Active
+Consensus,Pendidikan,Research,Freemium,Free / $9.99/bln,4,AI research paper search,https://consensus.app,Active
+Elicit,Pendidikan,Research,Free,Gratis,4,AI research assistant,https://elicit.org,Active
+Wolfram Alpha,Pendidikan,Research,Freemium,Free / $7.25/bln,5,Computational knowledge engine,https://wolframalpha.com,Active
+Explainpaper,Pendidikan,Research,Freemium,Free / Paid plans,4,Explain academic papers with AI,https://explainpaper.com,Active
+Scholarcy,Pendidikan,Research,Freemium,Free / $5-$10/bln,4,Auto article summarization,https://scholarcy.com,Active
+NotebookLM,Pendidikan,Research,Free,Gratis (Google),5,AI research notebook from your sources,https://notebooklm.google.com,Active
+Mindgrasp,Pendidikan,Study,Freemium,Free / Paid plans,4,Auto notes from any content,https://mindgrasp.ai,Active
+Gradescope,Pendidikan,Grading,Free,Gratis (edu),4,AI grading for teachers,https://gradescope.com,Active
+Socratic (Google),Pendidikan,Homework,Free,Gratis,4,"Homework help (math, science)",https://socratic.org,Active
